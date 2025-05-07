@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {View, Text, StyleSheet, TouchableOpacity, TextInput, FlatList, StatusBar} from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome6";
-import {dataSource} from "./DataSource";
+import {dataSource} from "../DataSource";
 
 const styles = StyleSheet.create({
     container: {

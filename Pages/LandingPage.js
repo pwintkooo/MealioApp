@@ -28,7 +28,7 @@ const LandingPage = ({navigation}) => {
     return(
         <View style={styles.container}>
             <StatusBar/>
-            <Image style={styles.imgStyle} source={require('./images/mealio2.png')}/>
+            <Image style={styles.imgStyle} source={require('../images/mealio2.png')}/>
         </View>
     )
 }

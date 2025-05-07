@@ -1,6 +1,6 @@
 import React from "react";
 import {View, Text, TouchableOpacity, StyleSheet, FlatList, Image} from "react-native";
-import {dataSource} from "./DataSource";
+import {dataSource} from "../DataSource";
 import Icon from "react-native-vector-icons/FontAwesome6";
 import Toast from 'react-native-toast-message';
 

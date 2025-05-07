@@ -10,8 +10,8 @@ import {
     StatusBar
 } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome6";
-import {dataSource} from "./DataSource";
-import {types} from './DataSource'
+import {dataSource} from "../DataSource";
+import {types} from '../DataSource'
 
 const styles = StyleSheet.create({
     container: {
@@ -154,7 +154,7 @@ const Home = ({navigation}) => {
                 <View style={styles.container}>
                     <StatusBar/>
                     <View style={styles.logoContainer}>
-                        <Image source={require('./images/mealio1.png')} style={styles.logo}/>
+                        <Image source={require('../images/mealio1.png')} style={styles.logo}/>
                         <TouchableOpacity
                             style={styles.cartBox}
                             onPress={() => navigation.navigate('Cart')}
